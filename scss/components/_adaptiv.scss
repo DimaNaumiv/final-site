@@ -19,10 +19,14 @@
         margin-top: 71px;
         margin-bottom: 0;
         .me_one{
+            margin-left: 7vw;
             font-size: 17px;
             width: 48vh;
-            li{
+            button{
                 display: none;
+            }
+            button:hover{
+                border-radius: 5px;
             }
             .li_in_ul_2{
                 display: block;

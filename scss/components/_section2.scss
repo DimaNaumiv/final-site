@@ -130,7 +130,24 @@
         font-family: "Inter", sans-serif;
     }
     .te_by_it_se_two{
-        margin-left: 10px;
+      color: #D8D8D8;
+      font-family: "Inter", sans-serif;
+      display: flex;
+        align-items: center;
+        text-align: end;
+        background-color: #161618;
+        border: none;
+        font-size: 20px;
+        img{
+          margin-right: 0.7vw;
+        }
+    }
+    .te_by_it_se_two:hover{
+      font-size: 17px;
+      border: #D8D8D8 solid 1px;
+      padding: 3px;
+      border-radius: 5px;
+      background-color: #303031;
     }
     .pr_it_se_two{
         color: #FF9800;

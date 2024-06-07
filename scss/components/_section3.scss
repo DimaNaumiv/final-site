@@ -23,6 +23,12 @@
             padding: 1px 5px;
         }
     }
+    .na_se_thre{
+        border: none;
+    }
+    .na_se_thre:hover{
+        color: #D8D8D8;
+    }
     .na2_se_thre{
         margin-bottom: 27px;
         display: flex;
@@ -41,6 +47,7 @@
             font-weight: 600;
             font-family: "Inter", sans-serif;
             padding: 1px 5px;
+            border: none;
         }
     }
     .sa_se_thre{
@@ -94,6 +101,9 @@
             img{
                 margin-right: 15px;
             }
+        }
+        button:hover{
+            background-color: #D8D8D8;
         }
         .pr_se_thre{
             padding: 6px 37px;

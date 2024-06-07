@@ -58,27 +58,45 @@ body {
 }
 
 .se_one {
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 7vw;
+  margin-right: 7vw;
   margin-bottom: 10px;
   margin-top: 52px;
 }
 .se_one .me_one {
-  width: 65%;
+  width: 84vw;
   font-size: 20px;
   color: #D8D8D8;
   font-family: "Inter", sans-serif;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 12px;
   margin-top: 12px;
+}
+.se_one .me_one button {
+  font-size: 20px;
+  color: #D8D8D8;
+  font-family: "Inter", sans-serif;
+  background-color: #161618;
+  border: none;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.se_one .me_one button:hover {
+  border: solid 1px #D8D8D8;
+  padding: 4px;
+  border-radius: 50px;
+  background-color: #D8D8D8;
+  color: #161618;
+  font-size: 24px;
 }
 .se_one .me_one .li_in_ul_2 {
   display: none;
 }
 .se_one .ga_ch_se_one {
-  width: 100%;
-  margin-left: 7%;
+  width: 87vw;
+  margin-left: 7vw;
   color: #FF9800;
   display: grid;
   grid-template-columns: 1fr 1.2fr 1.4fr;
@@ -405,7 +423,25 @@ body {
 }
 
 .te_by_it_se_two {
-  margin-left: 10px;
+  color: #D8D8D8;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: end;
+  background-color: #161618;
+  border: none;
+  font-size: 20px;
+}
+.te_by_it_se_two img {
+  margin-right: 0.7vw;
+}
+
+.te_by_it_se_two:hover {
+  font-size: 17px;
+  border: #D8D8D8 solid 1px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #303031;
 }
 
 .pr_it_se_two {
@@ -450,6 +486,12 @@ body {
   font-family: "Inter", sans-serif;
   padding: 1px 5px;
 }
+.se_thre .na_se_thre {
+  border: none;
+}
+.se_thre .na_se_thre:hover {
+  color: #D8D8D8;
+}
 .se_thre .na2_se_thre {
   margin-bottom: 27px;
   display: flex;
@@ -469,6 +511,7 @@ body {
   font-weight: 600;
   font-family: "Inter", sans-serif;
   padding: 1px 5px;
+  border: none;
 }
 .se_thre .sa_se_thre {
   width: 14%;
@@ -522,6 +565,9 @@ body {
 }
 .se_thre .pr_and_btn button img {
   margin-right: 15px;
+}
+.se_thre .pr_and_btn button:hover {
+  background-color: #D8D8D8;
 }
 .se_thre .pr_and_btn .pr_se_thre {
   padding: 6px 37px;
@@ -1014,11 +1060,15 @@ footer .li_ul {
     margin-bottom: 0;
   }
   .se_one .me_one {
+    margin-left: 7vw;
     font-size: 17px;
     width: 48vh;
   }
-  .se_one .me_one li {
+  .se_one .me_one button {
     display: none;
+  }
+  .se_one .me_one button:hover {
+    border-radius: 5px;
   }
   .se_one .me_one .li_in_ul_2 {
     display: block;
