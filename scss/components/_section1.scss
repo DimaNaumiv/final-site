@@ -1,0 +1,189 @@
+.se_one{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10px;
+    margin-top: 52px;
+    .me_one{
+        width: 65%;
+        font-size: 20px;
+        color: #D8D8D8;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        .li_in_ul_2{
+            display: none;
+        }
+    }
+    .ga_ch_se_one{
+        width: 100%;
+        margin-left: 7%;
+        color: #FF9800;
+
+        display: grid; 
+        grid-template-columns: 1fr 1.2fr 1.4fr;
+        grid-template-rows: 3fr 3fr 3fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+    "ph_0_se_one ph_0_se_one ph_1_se_one"
+    "ph_0_se_one ph_0_se_one ph_2_se_one"
+    "ph_0_se_one ph_0_se_one ph_3_se_one"; 
+}
+.ph_0_se_one { grid-area: ph_0_se_one; }
+.ph_1_se_one { grid-area: ph_1_se_one; }
+.ph_2_se_one { grid-area: ph_2_se_one; }
+.ph_3_se_one { grid-area: ph_3_se_one; 
+
+    }
+    .ph_1_se_one{
+        width: 46%;
+        background-image: url('../../img/section_1/photo_2.jpg');
+        background-repeat: no-repeat;
+        padding: 5px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .pr_1_se_one{
+        align-self: end;
+        font-size: 40px;
+        font-family: "Karantina", system-ui;
+        font-weight: bold;
+    }
+
+    .ph_2_se_one{
+        width: 46%;
+        background-image: url('../../img/section_1/photo_3.jpg');
+        background-repeat: no-repeat;
+        padding: 5px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .pr_2_se_one{
+        align-self: end;
+        font-size: 40px;
+        font-family: "Karantina", system-ui;
+        font-weight: bold;
+    }
+
+
+    .ph_3_se_one{
+        width: 46%;
+        background-image: url('../../img/section_1/photo_4.jpg');
+        background-repeat: no-repeat;
+        padding: 5px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .pr_3_se_one{
+        align-self: end;
+        font-size: 40px;
+        font-family: "Karantina", system-ui;
+        font-weight: bold;
+    }
+    .te_un_ph_se_on{
+        color: #D8D8D8;
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 0.4fr 2.2fr 0.4fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+    "te_un_se_one . bu_se_one"; 
+}
+.bu_se_one { grid-area: bu_se_one; }
+.te_un_se_one { grid-area: te_un_se_one
+    };
+    .te_un_se_one{
+        margin-top: 10%;
+        font-family: "Inter", sans-serif;
+        font-size: 19px;
+    }
+    .bu_se_one{
+        border: none;
+        color: #161618;
+        background-color: #FF9800;
+        border-radius: 5px;
+        width: 31%;
+    height: 60%;
+    align-self: end;
+    }
+    .bu_se_one:hover{
+        background-color: #D8D8D8;
+        color: #FF9800;
+    }
+
+    .gr_bu_se_one{
+        margin-top: 15px;
+        width: 65%;
+        display: flex;
+        .bus_se_one{
+            border: none;
+            color: #D8D8D8;
+            font-size: 18px;
+            background-color: #161618;
+            padding: 15px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .bus_se_one:hover{
+            background-color: #454549;
+        }
+    }
+    .end_se_one{
+        color: #D8D8D8;
+        background-color: #454549;
+        padding: 10px;
+        display: flex;
+
+        .bl_1{
+            margin-right: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .bl_2{
+            margin-right: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .bl_3{
+            margin-right: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .bl_4{
+            margin-right: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .bl_5{
+            margin-right: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .bl_6{
+            margin-right: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.ad_se{
+    display: none;
+}

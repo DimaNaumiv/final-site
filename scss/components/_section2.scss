@@ -1,0 +1,152 @@
+.se_two{
+    margin-left: 7%;
+    margin-right: 7%;
+        color: #D8D8D8;
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 0.7fr 0.7fr; 
+        grid-template-rows: 1fr 1fr 0.7fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "ro_se_two fi_it_se_two se_it_se_two"
+          "ro_se_two th_it_se_two fo_it_se_two"
+          "end_se_two end_se_two end_se_two"; 
+      }
+      .ro_se_two { grid-area: ro_se_two; }
+      .fi_it_se_two { grid-area: fi_it_se_two; }
+      .se_it_se_two { grid-area: se_it_se_two; }
+      .th_it_se_two { grid-area: th_it_se_two; }
+      .fo_it_se_two { grid-area: fo_it_se_two; }
+      .end_se_two { grid-area: end_se_two; }
+
+
+      .fi_it_se_two{
+        background-image: url('../../img/section_2/2sec_img2.jpg');
+        background-repeat: no-repeat;
+      }
+      .se_it_se_two{
+        background-image: url('../../img/section_2/2sec_img3.jpg');
+        background-repeat: no-repeat;
+      }
+      .th_it_se_two{
+        background-image: url('../../img/section_2/2sec_img4.jpg');
+        background-repeat: no-repeat;
+      }
+      .fo_it_se_two{
+        background-image: url('../../img/section_2/2sec_img5.jpg');
+        background-repeat: no-repeat;
+      }
+
+      .end_se_two{
+        width: 100%;
+        height: 90%;
+        padding: 48px;
+        background-image: url('../../img/section_2/2sec_img6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        border: none;
+      }
+      .he_end_se_two{
+        font-size: 30px;
+        font-family: "Epilogue", sans-serif;
+        font-optical-sizing: auto;
+         font-style: normal;
+         font-weight: 100;
+         margin-bottom: 15px;
+      }
+      .body_end_se_two{
+        font-size: 18px;
+        font-family: "Anek Malayalam", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+      }
+      .end_end_se_two{
+        margin-top: 15px;
+        font-size: 21px;
+        color: #FF9800;
+      }
+
+      .fi_de_se_it{
+        border: #D8D8D8 solid 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .up_se_two{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        .li_it_se_two{
+            margin-right: 27%;
+        }
+        .po_it_se_two{
+            font-size: 28px;
+            margin-top: 5px;
+            margin-left: 1px;
+            margin-bottom: 44.6%;
+            background-color: #E35E26;
+            border: #E35E26 solid 1px;
+            border-radius: 0 7px 7px 0;
+            font-family: "Karantina", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+    .na_it_se_two{
+        width: 75.5%;
+        padding: 5px 0 5px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4d4d4d83;
+        font-family: "Sofia Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 18px;
+    }
+    .steam{
+        padding: 6px;
+        border: #D8D8D8 solid 1px;
+        border-radius: 0 0 10px 10px; 
+    }
+    .ep_g{
+        margin-left: 10px;
+        padding: 6px;
+        border: #D8D8D8 solid 1px;
+        border-radius: 0 0 10px 10px; 
+    }
+    .by_it_se_two{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 6px 10px 6px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #D8D8D8 solid 1px;
+        border-radius: 0 0 10px 10px;
+        font-family: "Inter", sans-serif;
+    }
+    .te_by_it_se_two{
+        margin-left: 10px;
+    }
+    .pr_it_se_two{
+        color: #FF9800;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+        .ol_pr_it_se_two{
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 300;
+            color: #D8D8D8;
+            text-decoration: line-through;
+        }
+    }
+      
+      
+

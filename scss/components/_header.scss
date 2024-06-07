@@ -1,0 +1,48 @@
+.he_he{
+    position:fixed;
+    z-index: 20;
+    top: 0;
+    width: 86%;
+    margin-top: 0;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid  #454549 2px;
+    background-color: #161618;
+
+    .in_he{
+        background-color: #161618;
+        border: #D8D8D8 solid 1px;
+        border-radius: 5px;
+        color: #D8D8D8;
+        width: 45%;
+        height: 60%;
+        font-size: 14px;
+        padding: 5px;
+        position: relative;
+
+    }
+    .lp_he{
+        position: absolute;
+        display: flex;
+        align-self: center;
+        justify-self: end;
+        right: 36%;
+    }
+    .lo_al_he{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #D8D8D8;
+        width: 20%;
+        .te_lo_he{
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+        }
+        img{
+            margin-right: 14px;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+@media(max-width:820px){
+    .he_he{
+        margin-left: 2vw;
+        width: 93vw;
+        height: 61px;
+        .lo_al_he{
+        .te_lo_he{
+            font-size: 17px;
+            padding: 3px;
+            text-align: center;
+        }
+        img{
+            margin-right: 6px;
+            width: 27px;
+        }
+    } 
+    }
+    .se_one{
+        margin-top: 71px;
+        margin-bottom: 0;
+        .me_one{
+            font-size: 17px;
+            width: 48vh;
+            li{
+                display: none;
+            }
+            .li_in_ul_2{
+                display: block;
+            }
+        }
+        .ga_ch_se_one{
+            display: none;
+        }
+        .te_un_ph_se_on{
+            display: none;
+        }
+        .gr_bu_se_one{
+            display: none;
+        }
+        .end_se_one{
+            display: none;
+        }
+    }
+    .se_two{
+        display: none;
+    }
+    .se_thre{
+        display: none;
+    }
+    footer{
+        margin-left: 2%;
+        margin-right: 2%;
+        .end_one_fo{
+            margin-top: 4px;
+            padding: 10px;
+        }
+        .last{
+            img{
+                width: 23px;
+            }
+        }
+    }
+    .ad_se{
+        display: block;
+    }
+
+
+}
